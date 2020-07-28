@@ -25,3 +25,14 @@ ul {
 .active {
     display: block;
 }
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid grey;
+    margin: 10px 0;
+}
+
+.empty-folder {
+    text-decoration: line-through;
+}
